@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html>
+<head>
+<!--<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+<script src='https://kit.fontawesome.com/a076d05399.js'></script>-->
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css" integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous">
+    <link href="https://fonts.googleapis.com/css2?family=Balsamiq+Sans:wght@400;700&display=swap" rel="stylesheet">
+    <title>Homeless</title>
+    <link rel="stylesheet" href="donatee.css">
+    <script src="https://kit.fontawesome.com/332a215f17.js" crossorigin="anonymous"></script>
+  </head>
+
+  <body>
+      <!-- Navbar-->
+      <nav class="navbar navbar-expand-lg navbar-dark navbar-custom fixed-top" id="mainNav">
+          <div class="container">
+              <a class="navbar-brand js-scroll-trigger" href="#page-top">
+                <span class="logo">Donate For Homeless<img src="logo51.png" class="dai"></span>
+              </a>
+              <button class="navbar-toggler navbar-toggler-right" 
+              type="button" data-toggle="collapse" data-target="#navbarResponsive" 
+              aria-controls="navbarResponsive" aria-expanded="false" 
+              aria-label="Toggle navigation">Menu
+              <i class="fas fa-bars ml-1"></i>
+            </button>
+              <div class="collapse navbar-collapse" id="navbarResponsive">
+                  <ul class="navbar-nav text-uppercase ml-auto">
+                      <li class="nav-item">
+                  <a class="nav-link js-scroll-trigger" href="index.html">Home</a></li>
+                  <li class="nav-item">
+                  <a class="nav-link js-scroll-trigger" href="about.html">About</a></li>
+               <li class="nav-item">
+                <a class="nav-link js-scroll-trigger" href="contact.html">Contact</a></li>
+                <li class="nav-item">
+                  <a class="nav-link js-scroll-trigger" href="donate.html">Donate</a></li>
+                  </ul>
+              </div>
+          </div>
+      </nav>
+<style>
+
+.centered {
+  position: absolute;
+  bottom: 0;
+  background: rgb(0, 0, 0); /* Fallback color */
+  background: rgba(0, 0, 0, 0.6); /* Black background with 0.5 opacity */
+  color: #f1f1f1;
+  width: 100%;
+  padding: 300px;
+}
+
+* {
+  box-sizing: border-box;
+}
+  
+}
+.cen
+{
+font-weight:bold;
+font-size:30px;
+color:#ffffff;
+margin-left:550px;
+}
+
+.mySlides {
+display:none;
+}
+.mySlides img {vertical-align: middle;}
+
+</style>
+</head>
+
+
+<div class="pic">
+<img class="mySlides" src="img9.jpg" width="100%" height="660px">
+<img class="mySlides" src="img6.jpg" width="100%" height="660px">
+<img class="mySlides" src="img13.jpg" width="100%" height="660px">
+<img class="mySlides" src="img7.jpg" width="100%" height="660px">
+<div class="centered">
+<p class="cen" style="margin-left:240px;font-weight:bold;font-size:30px;
+color:#ffffff;">Be the reason a child smiles</p>
+<p style="margin-left:200px;font-weight:bold;font-size:20px;
+color:#ffffff;"><marquee behavior="scroll" direction="up" scrollamount="1">Together,we can ensure no child lives on the street</marquee></p>
+<form style="margin-left:330px"><script src="https://checkout.razorpay.com/v1/payment-button.js" data-payment_button_id="pl_GzDcu3Tfd2rIAe" async> </script> </form>
+</div>
+</div>
+<script>
+var myIndex = 0;
+carousel();
+
+function carousel() {
+  var i;
+  var x = document.getElementsByClassName("mySlides");
+  for (i = 0; i < x.length; i++) {
+    x[i].style.display = "none";  
+  }
+  myIndex++;
+  if (myIndex > x.length) {myIndex = 1}    
+  x[myIndex-1].style.display = "block";  
+  setTimeout(carousel,2000); // Change image every 3 seconds
+}
+</script>
+
+<script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js" integrity="sha384-OgVRvuATP1z7JjHLkuOU7Xw704+h835Lr+6QL9UvYjZE3Ipu6Tp75j7Bh/kR0JKI" crossorigin="anonymous"></script>
+
+</body>
+</html>
