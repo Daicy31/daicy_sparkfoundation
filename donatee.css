@@ -32,14 +32,7 @@ body{
     margin-bottom: 2rem;
     color: #fff;
   }
-.dai
-{
- position:absolute;
- top: -70px;
-left:250px;
-z-index: 3;
 
-}
 .contact .info {
   padding: 20px 40px;
   background: #f7e759;
